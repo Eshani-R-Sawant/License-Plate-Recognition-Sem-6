@@ -1,4 +1,4 @@
-# License-Plate-Recognition-Sem-6
+# License-Plate-Recognition-System
 
 An object detection technology used to identify vehicles by their number plates is using Tensorflow Object detection .
 It takes an image as an input and outputs the content of the number plate in the form of text.
@@ -21,6 +21,7 @@ The SSD architecture is a single convolution network that learns to predict boun
 By using SSD, we only need to take one single shot to detect multiple objects within the image, while regional proposal network (RPN) based approaches such as R-CNN series that need two shots, one for generating region proposals, one for detecting the object of each proposal. Thus, SSD is much faster compared with two-shot RPN-based approaches.
 OCR stands for Optical Character Recognition, whose primary job is to recognise the printed text in an image. Once we recognise the printed text with the help of OCR, we can use that information in various types.Here we are using EasyOCR.
 ![Alt Text](https://github.com/Eshani-R-Sawant/License-Plate-Recognition-Sem-6/blob/main/b.png)
+
 Modules
 
 1)Image Collection 
