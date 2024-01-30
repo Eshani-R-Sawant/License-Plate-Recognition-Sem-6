@@ -12,6 +12,7 @@ There is an increase of local, urban and national road networks over the last de
 Problem Definition: To detect and recognize characters of number plate using machine learning model.
 Proposed System
 Our proposed system will detect number plates using a predefined tensorflow object detection model inside a picture. Then it will recognize the contents of the number plate i.e. license  plate.As we are using predefined tensorflow object model trained on many classes we are fine tuning it to detect on license plate only class by training it first and the testing on our test dataset. After that, it will display those contents on the website using Flask. The proposed system is flexible to use. It can detect and recognize the number plate irrespective of its location.
+
 ![Alt Text](https://github.com/Eshani-R-Sawant/License-Plate-Recognition-Sem-6/blob/main/a.png)
 
 Implementation Details:-
@@ -19,8 +20,9 @@ The SSD architecture is a single convolution network that learns to predict boun
 
 By using SSD, we only need to take one single shot to detect multiple objects within the image, while regional proposal network (RPN) based approaches such as R-CNN series that need two shots, one for generating region proposals, one for detecting the object of each proposal. Thus, SSD is much faster compared with two-shot RPN-based approaches.
 OCR stands for Optical Character Recognition, whose primary job is to recognise the printed text in an image. Once we recognise the printed text with the help of OCR, we can use that information in various types.Here we are using EasyOCR.
-
+![Alt Text](https://github.com/Eshani-R-Sawant/License-Plate-Recognition-Sem-6/blob/main/b.png)
 Modules
+
 1)Image Collection 
 
 2)Tensorflow object detection on license plate
@@ -34,6 +36,7 @@ Modules
 6)number plate display.   
 
 Application
+
 1)Smart parking management
 
 2)Traffic Management
